@@ -1,0 +1,105 @@
+/*  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Arimo:ital,wght@1,700&family=Finlandica:ital,wght@0,600;1,400;1,500;1,600;1,700&family=Lobster&family=Open+Sans:ital,wght@0,300;0,600;1,400;1,600;1,800&family=Oswald:wght@500;600&family=PT+Sans:ital@0;1&family=PT+Serif:ital,wght@0,400;1,400;1,700&family=Permanent+Marker&family=Roboto+Mono:ital,wght@1,700&display=swap'); */
+
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body{
+background-image: url(bg.jpg);
+color: white;
+background-repeat: no-repeat;
+background-size: cover;
+
+font-family: 'Alumni Sans Inline One', cursive;
+
+}
+
+.container{
+margin: 5rem;
+
+}
+
+.container h1{
+font-size: 4rem;
+}
+
+
+.daily {
+margin-top: 2rem;
+display: flex;
+flex-direction: row;
+gap: 4rem;
+color: teal;
+background: rgb(0,0,0);
+background: linear-gradient(49deg, rgba(0,0,0,1) 46%, rgba(0,0,0,0.6110819327731092) 84%);
+width: 40%;
+height: 4vh;
+}
+
+.numbers{
+display: flex;
+flex-direction:row;
+gap: 4rem;
+font-size: 3rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 400;
+}
+
+p{
+margin-top: 2rem;
+font-size: 1.2rem;
+}
+
+
+.mail{
+display: flex;
+flex-direction: row;
+margin-top: 2rem;
+}
+
+input{
+   height: 2.4rem;
+   border-radius: 2rem;
+   padding: 1rem 4rem;
+   background: rgb(28, 27, 27);
+   border: none;
+   color: rgb(255, 255, 255);
+   outline: none;
+}
+
+input::placeholder{
+    opacity: 9;
+    color: white;
+   
+}
+
+button {
+height:2.4rem ;
+border-radius: 2rem;
+padding: 1rem 4rem;
+position: absolute;
+margin-left: 15rem;
+background: teal;
+border: none;
+color: white;
+cursor: pointer;
+font-size: 12px;
+font-weight: 600;
+}
+
+button:hover{
+background :rgb(104, 106, 94);
+
+}
+
+h3{
+font-size: 1rem;
+font-style: italic;
+text-decoration: line-through;
+position: absolute;
+margin-top: 1rem;
+}
+
+
